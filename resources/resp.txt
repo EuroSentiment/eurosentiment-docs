@@ -1,0 +1,10 @@
+POST /sparql HTTP/1.1
+Host: localhost:8081
+Content-Length: 199
+x-eurosentiment-token: 78cab860-d17d-4afa-b1ac-d3ff84e942ca
+Accept-Encoding: gzip, deflate, compress
+Accept: */*
+User-Agent: python-requests/2.2.1 CPython/2.7.6 Linux/3.13.0-24-generic
+content-type: application/json
+
+{"query": "PREFIX lemon: <http://lemon-model.net/lemon#>\nSELECT * FROM <http://www.eurosentiment.eu/dataset/hotel/es/gabvul/9/lexicon>\nWHERE {?s lemon:sense ?sense }", "format": "application/json"}
