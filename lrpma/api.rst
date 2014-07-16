@@ -1,5 +1,5 @@
-LRPMA
----------
+The LRP Management Application API
+=====================================================
 It is possible to retrieve management information from the LRP such as listing a user's own services or the subscription details.
 
 The basic endpoint is: http://217.26.90.243:8080/EuroSentimentServices/services/server

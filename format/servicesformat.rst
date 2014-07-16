@@ -1,7 +1,7 @@
-The Eurosentiment Format
-========================
-
+The EUROSENTIMENT format for services
+=====================================
 The Eurosentiment format is an extension of the NIF_ format data model for use in Sentiment Analysis.
+However, NIF_ and the Eurosentiment differ in one respect: Eurosentiment sets JSON-LD_ as its primary serialisation format, whereas NIF defaults to XML+RDF or turtle.
 It includes properties from Marl_, Onyx_ and other ontologies that complement those in NIF_ for sentiment and emotion tagging.
 However, NIF_ and the Eurosentiment differ in one respect: Eurosentiment sets JSON-LD_ as its primary serialisation format, whereas NIF defaults to XML+RDF or turtle.
 
@@ -10,15 +10,10 @@ It retains full compatibility with JSON while adding useful information.
 
 By using this serialisation format, Eurosentiment targets both semantic web developers and traditional developers alike.
 
-
 .. _NIF: http://persistence.uni-leipzig.org/nlp2rdf/
 .. _Marl: http://www.gsi.dit.upm.es/ontologies/marl
 .. _Onyx: http://www.gsi.dit.upm.es/ontologies/onyx
 .. _JSON-LD: http://www.json-ld.org
-
-.. contents::
-   :depth: 2
-
 
 Overview
 --------

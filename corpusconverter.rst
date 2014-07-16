@@ -1,18 +1,16 @@
-Eurosentiment Generator
-=======================
+Eurosentiment Corpus Converter
+==============================
 
 Introduction
 ------------
 
-The purpose of the EUROSENTIMENT Generator is to translate information
-from legacy or non-semantic formats to the semantic formats used in
-EUROSENTIMENT.
+The purpose of the EUROSENTIMENT Corpus Converter is to translate information from legacy or non-semantic formats to the semantic formats used in EUROSENTIMENT.
 
-The Generator has been tested with the corpora for sentiment and emotion
+The Corpus Converter has been tested with the corpora for sentiment and emotion
 analysis from the members of the consortium (mainly from Expert System
 and Paradigma Tecnológico). These corpora have been transformed to
 JSON-LD, using the Marl and Onyx vocabularies. Nevertheless, the
-Generator was designed as a generic tool to translate from and to a wide
+Corpus Converter was designed as a generic tool to translate from and to a wide
 range of formats and vocabularies or ontologies.
 
 Translating a document does not require any technical qualification. The
@@ -20,14 +18,14 @@ translation of documents can be done through a web portal. This is
 especially useful for demonstration and testing purposes or quick
 translations. However, in a real life scenario, there will be a big
 amount of information and files to be translated. Also, it should be
-possible to integrate our Generator in a pipeline or automated process,
+possible to integrate our Corpus Converter in a pipeline or automated process,
 so that new content can be automatically converted. For these reasons,
-the Generator also exposes a REST API. It only takes a POST request to
+the Corpus converter also exposes a REST API. It only takes a POST request to
 translate a document.
 
-The Generator has been designed to be extensible and to separate the
+The Corpus Converter has been designed to be extensible and to separate the
 technical aspects from the content and formats being translated. Our
-Generator itself is a convenient platform, but the actual translation is
+Corpus Converter itself is a convenient platform, but the actual translation is
 performed following a set of "Translation Templates". These templates
 have access to the data in the original file, and determine the result
 of the translation.
@@ -39,7 +37,7 @@ statistics.
 Architecture
 ------------
 
-As can be seen in the figure below, the Generator is made out of A Web
+As can be seen in the figure below, the Corpus Converter is made out of A Web
 Server proxies all the user requests to the Request Processor. This
 processor is a Django application that has two roles: providing a REST
 and an Administrative interface. On the administrative side it deals
@@ -56,7 +54,7 @@ Translation Templates
 ---------------------
 
 For convenience, we used an easy-to-use templating language and engine
-for the Generator called `Jinja2 <http://jinja.pocoo.org/docs/>`__.
+for the Corpus Converter called `Jinja2 <http://jinja.pocoo.org/docs/>`__.
 Despite its user-friendliness, it is a really powerful language. It
 features advanced loops, conditional clauses, functions and filters. It
 is essentially a stripped-down or subset of Python.
@@ -76,7 +74,7 @@ The annex contains a complete template.
 Supported Formats
 -----------------
 
-As of this writing, the EUROSENTIMENT Generator accepts corpora in the
+As of this writing, the EUROSENTIMENT Corpus Converter accepts corpora in the
 following formats:
 
 -  Paradigma Tecnológico's Human Annotated Corpora
@@ -104,7 +102,7 @@ a field to upload the desired file.
    :alt: Translating a document through the web
 
    Translating a document through the web
-The Generator endpoint takes the following parameters:
+The Corpus Converter endpoint takes the following parameters:
 
 -  input (i): The original file to be translated
 -  informat (f): The format of the original file

@@ -1,9 +1,6 @@
 Tools
 =====
-
-Generator
----------
 .. toctree::
 
-    generator
+    corpusconverter
     playground

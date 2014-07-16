@@ -3,11 +3,18 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to EUROSENTIMENT's documentation!
-=========================================
+Welcome to the documentation of the EUROSENTIMENT project
+=========================================================
+The aim of the |EUROSENTIMENT|_ project is to create a pool for multilingual language resources and services for Sentiment Analysis.
 
-The aim of the |EUROSENTIMENT|_ project is to create a multilingual Language Resource Pool (LRP) that fosters Sentiment Analysis.
-The LRP is available through the |PORTAL|_, and the  `demonstrator`_ gives an overview of the project and its features.
+With this pool, both language resource owners and sentiment analysis service developers can share their knowledge and experience with the Sentiment Analysis community.
+But it also enables content providers to benefit from sentiment analysis with little effort.
+
+You might want to check the |PORTAL|_ to start enjoying the language resource pool (LRP).
+It contains a list of all the existing language resources and services provided by the project partners.
+Or you can register and contribute with your own language resources and services.
+
+If you're still not sure about joining, please check our `demonstrator`_ to see what EUROSENTIMENT can offer you, and get an example of our language resources and services.
 
 This is the reference documentation for the Language Resource Pool and its services, as well as the API to access other information 
 
@@ -23,7 +30,7 @@ Getting started
     :maxdepth: 2
 
     accessing
-    format
+    format/index
     tools
 
 
