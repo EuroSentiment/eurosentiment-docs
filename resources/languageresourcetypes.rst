@@ -1,9 +1,9 @@
 Language Resource Types
 =======================
 
-This section describes the type of language resources that the EUROSENTIMENT LRP supports. Based on the initial list of language resources (listed |here|) from the project we identified the following supported formats. please not in brackets the number of the Lnagua resource addressed by the listed format.
+This section describes the type of language resources that the EUROSENTIMENT LRP supports. Based on the |initial list of language resources| from the project we identified the following supported formats. please not in brackets the number of the Lnagua resource addressed by the listed format.
 
-.. _here: https://www.google.com/url?q=https%3A%2F%2Fdocs.google.com%2Fspreadsheet%2Fccc%3Fkey%3D0AjXPAtb06jnMdFNicWRlV3FrVG9GT1dOMG9QYk9Ea1E%26usp%3Ddrive_web%23gid%3D17
+.. |initial list of language resources|: https://www.google.com/url?q=https%3A%2F%2Fdocs.google.com%2Fspreadsheet%2Fccc%3Fkey%3D0AjXPAtb06jnMdFNicWRlV3FrVG9GT1dOMG9QYk9Ea1E%26usp%3Ddrive_web%23gid%3D17
 
 domain-specific-lexicon-TSV (5): Tab-separated-values file that describes sentiments in the context of domain aspects (e.g. myFile.tsv). 
 The header of the TSV file should have the following columns:
