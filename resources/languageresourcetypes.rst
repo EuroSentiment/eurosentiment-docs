@@ -92,7 +92,7 @@ where:
 
 7. **dataset-rdf** (25, 26, 27, 29, 37(needs conversion to RDF),42,55): RDF dump (*.nt.gz) of linked data dataset like WordNet, DBpedia, BabelNet.
 
-8. **aspects-review-corpus-TripAdvisor**(49): A file with annotated reviews and aspect ratings. Each review in the file is spread over several lines where each line starts with a dedicated tag as in the example below.
+8. **aspects-review-corpus-TripAdvisor** (49): A file with annotated reviews and aspect ratings. Each review in the file is spread over several lines where each line starts with a dedicated tag as in the example below.
 
 e.g.
 
