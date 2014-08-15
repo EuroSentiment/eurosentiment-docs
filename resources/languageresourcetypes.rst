@@ -98,7 +98,7 @@ e.g.
 
 ``<Author>IndieLady``
 
-``<Content>Lovely hotel, unique decor, friendly front desk staff […] ``
+``<Content>Lovely hotel, unique decor, friendly front desk staff […]``
 
 ``<Date>Nov 13, 2008``
 
@@ -124,11 +124,12 @@ e.g.
 
 9. **aspects-review-corpus-Amazon** (44): A file that consists of plain text reviews for products with custom ratings annotations that spread over several lines. The marker for a new review is [t] whereas the numbers in brackets stand for the rating of a certain aspect in the review. See below an example:
 
-e.g.                    
+e.g.   
+
 
 ``[ t ] the best 4mp compact digital available camera[+2]## this camera is perfect for an enthusiastic amateur photographer . picture [+3] ,``
 
-``macro[+3]## the pictures are razor sharp , even in macro . . .        ``
+``macro[+3]## the pictures are razor sharp , even in macro . . .``
 
 
 
