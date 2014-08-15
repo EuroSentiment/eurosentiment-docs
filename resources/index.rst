@@ -5,4 +5,4 @@ Resources
     :maxdepth: 2
     :glob:
 
-    *
+    api.rst
