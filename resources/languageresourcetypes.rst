@@ -1,5 +1,5 @@
 Language Resource Types
-
+=======================
 
 This section describes the type of language resources that the EUROSENTIMENT LRP supports. Based on the initial list of language resources (listed here) from the project we identified the following supported formats. please not in brackets the number of the Lnagua resource addressed by the listed format.
 
