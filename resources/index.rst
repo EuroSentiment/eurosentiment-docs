@@ -6,3 +6,5 @@ Resources
     :glob:
 
     api.rst
+    languageresourcetypes.rst
+
