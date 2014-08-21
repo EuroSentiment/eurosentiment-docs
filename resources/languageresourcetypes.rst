@@ -133,14 +133,15 @@ e.g.
 10. **Opener lexicons** : Semicolon-separated-values file with the following columns: wordnetSynsetID; POStag; polarity; confidence; lemmas; manualReviewFlag
 
 where:
-``wordnetSynsetID`` : wordnet 30 synsetID.
-``POStag`` : part-of-speech tag
-``polarity`` : sentiment polarity which can be -1, 0 or 1 for negative, neutral and positive respectively.
-``confidence`` : confidence assigned by the propagation algorithm
-``lemmas`` : lemmas of this  synset in wordnet separated by comma
-``manualReviewFlag`` : -1 if no manual review has been done and + 1 if they have been reviewed.
+* *wordnetSynsetID* : wordnet 30 synsetID.
+* *POStag* : part-of-speech tag
+* *polarity* : sentiment polarity which can be -1, 0 or 1 for negative, neutral and positive respectively.
+* *confidence* : confidence assigned by the propagation algorithm
+* *lemmas* : lemmas of this  synset in wordnet separated by comma
+* *manualReviewFlag* : -1 if no manual review has been done and + 1 if they have been reviewed.
 
 e.g. 
+
 ``eng-30-09366317-n;n;positive;0.3125;natural_elevation,elevation;-1``
 ``eng-30-07961016-n;n;neutral;0.3125;clod,glob,ball,chunk,clump,lump;-1``
      
