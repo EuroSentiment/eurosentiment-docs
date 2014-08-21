@@ -130,7 +130,9 @@ e.g.
 
 ``macro[+3]## the pictures are razor sharp , even in macro . . .``
 
-10. **Opener lexicons** : Semicolon-separated-values file with the following columns: wordnetSynsetID; POStag; polarity; confidence; lemmas; manualReviewFlag
+10. **Opener lexicons** : Semicolon-separated-values file with the following columns: 
+
+``wordnetSynsetID; POStag; polarity; confidence; lemmas; manualReviewFlag``
 
 where:
 * *wordnetSynsetID* : wordnet 30 synsetID.
