@@ -135,6 +135,7 @@ e.g.
 ``wordnetSynsetID; POStag; polarity; confidence; lemmas; manualReviewFlag``
 
 where:
+
 * *wordnetSynsetID* : wordnet 30 synsetID.
 * *POStag* : part-of-speech tag
 * *polarity* : sentiment polarity which can be -1, 0 or 1 for negative, neutral and positive respectively.
