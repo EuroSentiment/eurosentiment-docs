@@ -17,6 +17,7 @@
     EUROSENTIMENT aims to distribute the best resources available on the market, providing to your research the state of the art tools to validate and extend your results. 
 9. Which type of billing services the EUROSENTIMENT platform does support?
     The accessed resources will be billed per download volume, the services for processing volume. 
+
 10. Does the platform support an API?
     The EUROSENTIMENT platform provides a fully featured REST based API.
 11. Which kind of domains are supported?
