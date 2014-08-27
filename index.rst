@@ -50,6 +50,14 @@ Language Resource Pool Management
 
     lrpma/*
 
+FAQ
+----
+.. toctree::
+    :maxdepth: 2
+    :glob:
+
+    faq/*
+
 Indices and tables
 ------------------
 
