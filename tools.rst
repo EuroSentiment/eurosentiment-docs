@@ -4,3 +4,4 @@ Tools
 
     corpusconverter
     playground
+    languageadaptationpipeline
