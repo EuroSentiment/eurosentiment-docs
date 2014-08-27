@@ -56,7 +56,7 @@ FAQ
     :maxdepth: 2
     :glob:
 
-    faq/*
+    faq.rst
 
 Indices and tables
 ------------------
