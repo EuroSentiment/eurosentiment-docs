@@ -9,10 +9,12 @@ There are four main steps of the LRAP as shown in the Figure bellow:
 
 1. Corpus Conversion: normalizes the different language resources to a common schema based on Marl and NIF; The corpus convertor tool was described earlier in a separate section.
 
-2. Semantic Analysis: extracts the domain-specific entity classes and named entities and identifies links between these entities and concepts from the LLOD Cloud. The Semantic Analysis step consists of: `Domain Modeller (DM) <https://github.com/insight-unlp/domainmodeller>`_, Entity Extraction (EE), Entity Linking (EL) and Synset Identification (SI) components. 
+2. Semantic Analysis: extracts the domain-specific entity classes and named entities and identifies links between these entities and concepts from the LLOD Cloud. The Semantic Analysis step consists of: `Domain Modeller (DM) <https://github.com/insight-unlp/domainmodeller>`_, `Entity Extraction (EE), Entity Linking (EL) <https://dl.dropboxusercontent.com/u/17176685/EUROSENITMENT-code/aela-eurosentiment0.3.tar.gz>`_ and Synset Identification (SI) components. 
 
-3. Sentiment Analysis: extracts contextual sentiments and identifies SentiWordNet synsets corresponding to these contextual sentiment words; 
-4. Lexicon Generator: uses the results of the previous steps, enhances them with multilingual and morphosyntactic information and converts the results into a lexicon based on the lemon and Marl formats. 
+3. Sentiment Analysis: extracts contextual sentiments and identifies SentiWordNet synsets corresponding to these contextual sentiment words. The Sentiment Analysis step consists of: `Domain-Specific Sentiment Polarity Analysis (DSSA) and Sentiment Synset Identification (SSI) <https://www.dropbox.com/s/henii3iyigjf92l/wnsd-1.2-full.tar.gz>`_ components.
+
+
+4. Lexicon Generator: uses the results of the previous steps, enhances them with multilingual and morphosyntactic information and converts the results into a lexicon based on the lemon and Marl formats. The Lexicon Generator step consists of: `MorphoSyntactic Enrichment (ME) <https://dl.dropboxusercontent.com/u/17176685/EUROSENITMENT-code/morphosyntactic.zip>`_, `Machine Translation(T) <git://github.com/moses-smt/mosesdecoder.git>`_ and `lemon/Marl Generator(LG) <https://dl.dropboxusercontent.com/u/17176685/EUROSENITMENT-code/LemonMarlGenerator.zip>`_ components. 
 
 
 Different language resources are processed with variations of the given adaptation pipeline. 
@@ -21,20 +23,3 @@ For more details on the LRAP and the domain-specific lexicons it generates pleas
 1. Presentatin at 5th International Workshop on EMOTION, SOCIAL SIGNALS, SENTIMENT & LINKED OPEN DATA: "Generating Linked-Data based Domain-Specific Sentiment Lexicons from Legacy Language and Semantic Resources" - Gabriela Vulcu, Paul Buitelaar, Sapna Negi, Bianca Pereira, Mihael Arcan, Barry Coughlan, Fernando J. Sanchez and Carlos A. Iglesias
 
 2. Poster at the Data Challenge at the 3rd Workshop on Linked Data in Linguistics "Linked-Data based Domain-Specific Sentiment Lexicons" - Gabriela Vulcu, Raul Lario Monje, Mario Munoz, Paul Buitelaar and Carlos A. Iglesias
-
-   
-Domain modeller component (NUIG)
-Entity extraction and entity linking component (NUIG):
-
-    aela-eurosentiment0.3.tar.gz
-    gazetteer.tar.gz
-    neighboursIndex.tar.gz
-
-Synset Identification component (NUIG)
-Domain-Specific Sentiment Analysis component (NUIG)
-Lemon/marl generator (NUIG)
-Translation component (NUIG)
-Morphosyntactic component (NUIG)
-
-marl: http://www.gi2mo.org/marl/0.1/ns.html
-nif: http://persistence.uni-leipzig.org/nlp2rdf/
