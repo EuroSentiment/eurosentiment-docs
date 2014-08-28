@@ -5,6 +5,8 @@ The Language Resource Adaptation Pipeline (a.ka. LRAP) implements a methodology 
 The outcome of the Language Resource Adaptation Pipeline are annotated corpora represented the NIF/Marl format and domain-specific sentiment lexicons represented in RDF using the Lemon/Marl format. The legacy language resources are enriched with semantics and additional linguistic information from resources like DBpedia and BabelNet. 
 
 There are four main steps of the LRAP as shown in the Figure bellow: 
+
+
 .. image:: overall.jpg
 
 1. **Corpus Conversion**: normalizes the different language resources to a common schema based on Marl and NIF; The corpus convertor tool was described earlier in a separate section.
