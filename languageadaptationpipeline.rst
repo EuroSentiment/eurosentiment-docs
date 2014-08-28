@@ -7,7 +7,7 @@ The outcome of the Language Resource Adaptation Pipeline are annotated corpora r
 There are four main steps of the LRAP as shown in the Figure bellow: 
 
 
-.. image:: overall.jpg
+.. image:: _static/img/overall.jpg
 
 1. **Corpus Conversion**: normalizes the different language resources to a common schema based on Marl and NIF; The corpus convertor tool was described earlier in a separate section.
 
