@@ -1,3 +1,6 @@
+Language Resource Adaptation Pipeline
+=====================================
+
 In this section we describe the Language Resource Adaptation Pipeline various components and provides links to the source code for these components.
 
 The Language Resource Adaptation Pipeline (a.ka. LRAP) implements a methodology for legacy language resource adaptation that generates domain-specific sentiment lexicons organized around domain entities described with lexical information and sentiment words described in the context of these entities. 
