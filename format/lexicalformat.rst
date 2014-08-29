@@ -8,4 +8,4 @@ The EUROSENTIMENT sentment lexicons are represented in RDF using the lemon_ form
 .. _Marl: http://www.gsi.dit.upm.es/ontologies/marl
 .. _D4.3: http://eurosentiment.eu/wp-content/uploads/2014/02/EUROSENTIMENT-D4_3-Adaptation-of-legacy-language-resources-Final-version-v16_Final.pdf
 
-
+The following figure shows an example of RDF domain-specific lexicon consider the foll
