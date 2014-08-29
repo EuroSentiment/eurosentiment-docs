@@ -21,6 +21,7 @@ In the case of sentiment lexical entrie we use two more properties (i.e. *marl:P
 
 The domain-specific aspect of the EUROSENTIMENT lexicons is given by the lemon property context which connectsa sentiment word to a domain aspect. In the example, the *lmn:context* property signifies that the sentiment word *pretty good* has a positive value of 0.75 in the context of the *location* domain aspect.
 
+We recall from D4.3_ that we generate domain-specific lexicons in other languages based on the initial english lexicon. For example, in our case, the german lexicon for hotel was automatically generated form the english lexicon for hotel. This relation between the two lexicons is represneted via the *isocat:translationOf* relation between the senses of the translated lexical entries. 
 
 
 
