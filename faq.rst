@@ -1,3 +1,5 @@
+Frequently Asked Questions
+==========================
 
 1. What is EUROSENTIMENT?
     EUROSENTIMENT is a platform for the distribution of multilingual sentiment analysis resources available online for the first time. 

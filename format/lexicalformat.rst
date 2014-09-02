@@ -9,7 +9,7 @@ The EUROSENTIMENT sentiment lexicons are represented in RDF using the lemon_ for
 
 The following figure shows an example of RDF domain-specific lexicon. 
 
- _static/img/lexicon-example.jpg
+.. image:: /_static/img/lexicon-example.jpg
  
 In this figure we see snippets from two lexicons: a lexicon for the hotel domain in english (i.e. *le:hotel* ) and a lexicon for the hotel domain in german (i.e. *ld:hotel*).
 The sentiment lexicons are composed of lexical entries: in our example *lee:location* and *lee:pretty-good* for the English lexicon and *led:Lage* for the german lexicon. Some of the lexical entries are domain aspects like *location* and *Lage* and some are sentiment words like *pretty good*.
