@@ -70,7 +70,7 @@ Overview
         "strings": [
           {
             "nif:anchorOf": {{ strings[i].value }},
-            "nif:taIdentRef": {{ strings[i].entity }},
+            "itsrdf:taIdentRef": {{ strings[i].entity }},
             "nif:posTag": {{ strings[i].posTag }},
             "nif:lemma": {{ strings[i].lemma }}
           },
