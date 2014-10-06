@@ -181,70 +181,109 @@ The Eurosentiment context would look like this:
     }
 
 
-Description
------------
-
 Examples
 --------
 
-* Three entries from the Paradigma Human Annotated English corpus:
+* Annotating one entry using a fictitious service (http://example.com/analyse) provided by http://example.com. Input: "My ipad is an awesome device".
 .. code-block:: javascript
 
    {
     "@context": [
-      "http://demos.gsi.dit.upm.es/eurosentiment/static/context.jsonld",
-      {
-        "ex": "http://example.com"
-      }
+      "http://demos.gsi.dit.upm.es/eurosentiment/static/context.jsonld"
     ],
-    "@id": "pt_en_human_truncated.tsv",
     "results": {
       "analysis": [
         {
-          "@id": "pt_en_human_truncated.tsv#HumanAnnotated",
+          "@id": "http://example.com/analyse",
           "@type": [
             "marl:SentimentAnalysis"
           ],
           "dc:language": "en",
           "marl:maxPolarityValue": 10.0,
           "marl:minPolarityValue": 0.0
+          "prov:wasAssociatedWith": "http://example.com"
         }
       ],
       "entries": [
         {
-          "@id": "ex:NIFContext1",
+          "@id": "http://example.com/analyse?input=My%20ipad%20is%20an%20awesome%20device",
           "opinions": [
             {
               "marl:polarityValue": 9,
-              "marl:hasPolarity": "marl:Positive"
+              "marl:hasPolarity": "marl:Positive",
+              "marl:describesObject": "http://dbpedia.org/page/IPad"
+              "prov:generatedBy": "http://example.com/analyse",
             }
           ],
-          "nif:isString": "very good in every thing but gym far and no pool... the view of my room.. the breakfast room very small and had to wait to get in...",
-          "prov:generatedBy": "pt:agent"
-        } ,       {
-          "@id": "ex:NIFContext2",
-          "opinions": [
+          "nif:isString": "My ipad is an awesome device",
+          "strings": [
             {
-              "marl:polarityValue": 9,
-              "marl:hasPolarity": "marl:Positive"
+              "@id": "http://example.com/analyse?input=My%20ipad%20is%20an%20awesome%20device#char=3,6",
+              "nif:anchorOf": "ipad",
+              "itsrdf:taIdentRef": "http://dbpedia.org/page/IPad"
             }
-          ],
-          "nif:isString": "Location, great in room dining. No swimming pool in the spa",
-          "prov:generatedBy": "pt:agent"
-        } ,       {
-          "@id": "ex:NIFContext3",
-          "opinions": [
-            {
-              "marl:polarityValue": 9,
-              "marl:hasPolarity": "marl:Positive"
-            }
-          ],
-          "nif:isString": "The Staff, food and ambience in the hotel. Lovely room overlooking the courtyard. Very close to Buckingham palace,the queen was practically our neighbour! Some noise from the renovations taking place next door.",
-          "prov:generatedBy": "pt:agent"
-        }     ]
+          ]
+        }
+      ]
     }
    }
 
+
+* Annotating complex emotions in Spanish. Input: "Mi ipad me tiene harto".
+.. code-block:: javascript
+
+   {
+    "@context": [
+      "http://demos.gsi.dit.upm.es/eurosentiment/static/context.jsonld"
+    ],
+    "results": {
+      "analysis": [
+        {
+          "@id": "http://example.com/analyse",
+          "@type": [
+            "onyx:EmotionAnalysis"
+          ],
+          "dc:language": "es",
+          "onyx:maxEmotionIntensity": 1.0,
+          "onyx:minEmotionIntensity": 0.0
+          "prov:wasAssociatedWith": "http://example.com/"
+        }
+      ],
+      "entries": [
+        {
+          "@id": "http://example.com/analyse?input=Mi%20ipad%20me%20tiene%20harto",
+          "dc:language": "es",
+          "opinions": [
+          ],
+          "emotions": [
+            {
+              "onyx:aboutObject": "http://dbpedia.org/page/IPad"
+              "prov:generatedBy": "http://example.com/analyse",
+              "onyx:hasEmotion": [
+                {
+                    "onyx:hasEmotionCategory": "wna:dislike",
+                    "onyx:hasEmotionIntensity": 0.7
+                },
+                {
+                    "onyx:hasEmotionCategory": "wna:despair",
+                    "onyx:hasEmotionIntensity": 0.1
+                }
+              ]
+            }
+          ],
+          "nif:isString": "My ipad is an awesome device",
+          "prov:generatedBy": "http://example.com/analyse",
+          "strings": [
+            {
+              "@id": "http://example.com/analyse?input=Mi%20ipad%20me%20tiene%20harto#char=3,6",
+              "nif:anchorOf": "ipad",
+              "itsrdf:taIdentRef": "http://dbpedia.org/page/IPad"
+            }
+          ]
+        }
+      ]
+    }
+   }
 
 Other serialisation formats
 ---------------------------
