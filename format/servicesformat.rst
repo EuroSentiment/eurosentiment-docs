@@ -82,7 +82,7 @@ Overview
     }
 
 processID
-    Is the ID of the process that gathered the results. More on `Description`_.
+    Is the ID of the process that gathered the results.
 domain  
     Domain detected in the entries, or used by the analysis
 analysis
