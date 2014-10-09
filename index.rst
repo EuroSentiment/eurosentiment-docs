@@ -30,6 +30,7 @@ Getting started
     :maxdepth: 2
 
     accessing
+    subscription
     format/index
     tools
 

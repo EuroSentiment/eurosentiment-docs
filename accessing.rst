@@ -1,4 +1,4 @@
-Getting access to the Platform
+Getting Access to the Platform
 ==============================
 To consume the services provided by EUROSENTIMENT programmatically, you need to provide an access token in each request.
 It can be easily obtained following these simple steps:
