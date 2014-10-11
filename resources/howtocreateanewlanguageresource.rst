@@ -1,11 +1,11 @@
 How to add a new language resource 
 ===================================
 
-This section describes how a new language resource is added to teh EUROSENTIMENT LRP. You can also watch a video (https://www.dropbox.com/s/86dqo4u4k9gf0i6/EUROSENTIMENT-adding-a-new-LR.mp4?dl=0) that describes step-by-step the process.
+This section describes how a new language resource is added to the EUROSENTIMENT LRP. You can also watch a video (https://www.dropbox.com/s/86dqo4u4k9gf0i6/EUROSENTIMENT-adding-a-new-LR.mp4?dl=0) that describes step-by-step the process.
 
 Resource upload steps:
 	0. Precondition: the user is logged in: https://portal.eurosentiment.eu/ with his username and password
-	1. Click on the 'Recources' tab -> 'New resource'
+	1. Click on the 'Recources' tab -> 'Add a resource'
 	2. Fill in the 'Resource creation form'
 		* Name -> give a name of your LR
 		* Graph URI prefix -> the platform will suggest you a unique graph URI (if you like it, leave it like it is)
@@ -15,7 +15,7 @@ Resource upload steps:
 		* Description -> add a detailed description of your language resource.
 		* Resource type -> chose from the drop-down list the resource type you want to add.
 		* Access control -> select the type of license under which you want to publish the LR
-		* Upload hte LR file
+		* Upload the LR file
 		* Fill in the Fact sheet with similar details and send an email to eurosentimentpt@gmail.com
 	3. Click on the 'Create' button
 	4. What will happen behind the scenes:
