@@ -1,4 +1,4 @@
-How to add a anew language resource 
+How to add a new language resource 
 ===================================
 
 This section describes how a new languag resource is added to teh EUROSENTIMENT LRP.
@@ -19,12 +19,12 @@ Resource upload steps:
 		* Fill in the Fact sheet with similar details and send an email to eurosentimentpt@gmail.com
 	3. Click on the 'Create' button
 	4. What will happen behind the scenes:
-		4.1 an email is sent to the EUROSENTIMENT LRP
-		4.2 you are notified by email that your LR was submitted and will be reviewed before added to the LRP as soon as possible
-		4.3 an administrator will carefully read the resource submission and will decide if the language resource will be added to the language resource pool
-		4.4 if the LR is provided in an existing format then move to 4.6
-		4.5 if the LR is provided in a new format not known previously to the platform, the administrator will develop a specific language resource adaptation pipeline
-		4.6 the administrator runs the language resource adaptation pipeline and the provided LR is processed, converted to RDF and linked-data and the result is uploaded to the SPARQL endpoint
-		4.7 you are notified by email that your language resource was processed
+		* an email is sent to the EUROSENTIMENT LRP
+		* you are notified by email that your LR was submitted and will be reviewed before added to the LRP as soon as possible
+		* an administrator will carefully read the resource submission and will decide if the language resource will be added to the language resource pool
+		* if the LR is provided in an existing format then move to 4.6
+		* if the LR is provided in a new format not known previously to the platform, the administrator will develop a specific language resource adaptation pipeline
+		* the administrator runs the language resource adaptation pipeline and the provided LR is processed, converted to RDF and linked-data and the result is uploaded to the SPARQL endpoint
+		* you are notified by email that your language resource was processed
 	5. Click on the 'Resources' -> 'List Own resources' and see your newly added LR that can be used by you or other users of the EUROSENTIMENT LRP
 	
