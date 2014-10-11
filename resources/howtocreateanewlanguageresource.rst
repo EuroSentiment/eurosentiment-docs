@@ -12,11 +12,11 @@ Resource upload steps:
 		* Short Name -> give a short name of your LR. It will be used to dynamically generate the graph URI
 		* Language -> select form the language drop-down list
 		* Application Domain -> select form the drop-down list
-		2.6. Description -> add a detailed description of your language resource.
-		2.7 Resource type -> chose from the drop-down list the resource type you want to add.
-		2.8 Access control -> select the type of license under which you want to publish the LR
-		2.9 Upload hte LR file
-		2.9 Fill in the Fact sheet with similar details and send an email to eurosentimentpt@gmail.com
+		* Description -> add a detailed description of your language resource.
+		* Resource type -> chose from the drop-down list the resource type you want to add.
+		* Access control -> select the type of license under which you want to publish the LR
+		* Upload hte LR file
+		* Fill in the Fact sheet with similar details and send an email to eurosentimentpt@gmail.com
 	3. Click on the 'Create' button
 	4. What will happen behind the scenes:
 		4.1 an email is sent to the EUROSENTIMENT LRP
@@ -27,3 +27,4 @@ Resource upload steps:
 		4.6 the administrator runs the language resource adaptation pipeline and the provided LR is processed, converted to RDF and linked-data and the result is uploaded to the SPARQL endpoint
 		4.7 you are notified by email that your language resource was processed
 	5. Click on the 'Resources' -> 'List Own resources' and see your newly added LR that can be used by you or other users of the EUROSENTIMENT LRP
+	
