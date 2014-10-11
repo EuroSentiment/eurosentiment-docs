@@ -1,7 +1,7 @@
 How to add a new language resource 
 ===================================
 
-This section describes how a new languag resource is added to teh EUROSENTIMENT LRP.
+This section describes how a new language resource is added to teh EUROSENTIMENT LRP. You can also watch a video (https://www.dropbox.com/s/86dqo4u4k9gf0i6/EUROSENTIMENT-adding-a-new-LR.mp4?dl=0) that describes step-by-step the process.
 
 Resource upload steps:
 	0. Precondition: the user is logged in: https://portal.eurosentiment.eu/ with his username and password
