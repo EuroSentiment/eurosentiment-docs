@@ -5,5 +5,6 @@ The Eurosentiment Portal offers a series of services that are useful for Sentime
 .. toctree::
     :maxdepth: 2
 
+    howtoaddanewservice
     api
     yourown
